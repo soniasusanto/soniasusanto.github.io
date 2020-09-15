@@ -1286,15 +1286,29 @@ button,
 .spotlight {
   @include vendor('align-items', 'center');
   @include vendor('display', 'flex');
+  height: 27rem;
 
   .image {
     @include vendor('order', '1');
+    @include vendor('display', 'flex');
+    @include vendor('justify-content', 'center');
     border-radius: 0;
     width: 40%;
 
-    img {
+    .pic2 {
       border-radius: 0;
-      width: 100%;
+      width: 19rem;
+      height: 25rem;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .pic3 {
+      border-radius: 0;
+      width: 30rem;
+      height: 20rem;
+      padding: 1rem;
+      text-align: center;
     }
   }
 
@@ -1303,6 +1317,7 @@ button,
     @include vendor('order', '2');
     max-width: 48em;
     width: 60%;
+    color: black;
   }
 
   &:nth-child(2n) {
@@ -1582,7 +1597,7 @@ button,
   }
 
   &.style2 {
-    background-color: _palette(bg);
+    background-color: rgba(245, 245, 245, 0.733);
   }
 
   &.style3 {
