@@ -47,55 +47,13 @@ module.exports = {
     { name: 'CSS' },
     { name: 'Github / Git' },
     { name: 'Test Driven Development' },
+    { name: 'Jasmine' },
+    { name: 'Mocha' },
     { name: 'RESTful APIs' },
     { name: 'Postman' },
     { name: 'Flutter / Dart' },
     { name: 'Bootstrap' },
-  ],
-  projects: [
-    {
-      title: 'Shelter-in-Pets',
-      subtitle: 'A pet adoption mobile application',
-      purpose:
-        'Shelter-in-Pets was built during the COVID-19 lockdown. My team and I wanted to build an application that helped people e-visit and adopt shelter dogs.',
-      description:
-        'The app matches user-uploaded dog images to similar adoptable dogs, allows a user to conduct filtered searches based on desired traits, and even recommends adoptable dogs based on the user’s in-app activity.',
-      github: 'https://github.com/soniasusanto/shelter-in-pets',
-      link: '',
-      image: '',
-    },
-    {
-      title: 'iHash',
-      subtitle: 'A mobile application that generates hashtags',
-      purpose:
-        'Fascinated by image recognition technologies, I wanted to build an application that recognized uploaded images and generate relevant hashtags.',
-      description:
-        'The app was built using Flutter/Dart and Google Teachable Machine during a 4 day hackathon. While it was challenging to learn a new language and Tensorflow Lite in such a short period of time, I was pleased that I was able to incorporate a pretrained machine learning model and user login authentication flow in my mobile application.',
-      github: 'https://github.com/soniasusanto/iHash',
-      link: '',
-      image: '',
-    },
-    {
-      title: 'Shelter-in-Pets',
-      subtitle: 'A pet adoption mobile application',
-      purpose:
-        'Shelter-in-Pets was built during the COVID-19 lockdown. My team and I wanted to build an application that helped people e-visit and adopt shelter dogs.',
-      features:
-        'The app matches user-uploaded dog images to similar adoptable dogs, allows a user to conduct filtered searches based on desired traits, and even recommends adoptable dogs based on the user’s in-app activity.',
-      github: 'https://github.com/soniasusanto/shelter-in-pets',
-      link: '',
-      image: '',
-    },
-    {
-      title: 'Shelter-in-Pets',
-      subtitle: 'A pet adoption mobile application',
-      purpose:
-        'Shelter-in-Pets was built during the COVID-19 lockdown. My team and I wanted to build an application that helped people e-visit and adopt shelter dogs.',
-      features:
-        'The app matches user-uploaded dog images to similar adoptable dogs, allows a user to conduct filtered searches based on desired traits, and even recommends adoptable dogs based on the user’s in-app activity.',
-      github: 'https://github.com/soniasusanto/shelter-in-pets',
-      link: '',
-      image: '',
-    },
+    { name: 'SASS' },
+    { name: 'Heroku' },
   ],
 };

@@ -455,7 +455,7 @@ header {
   }
 
   &.major {
-    margin: 0 0 (_size(element-margin) * 1.75) 0;
+    // margin: 0 0 (_size(element-margin) * 0.5) 0;
 
     h2,
     h3,
@@ -833,6 +833,7 @@ ul.actions {
 
   &.special {
     @include vendor('justify-content', 'center');
+
     width: 100%;
     margin-left: 0;
 
@@ -943,19 +944,23 @@ ul.icons {
 }
 
 /* Skills */
-
+.skills-container {
+  @include vendor('display', 'flex');
+  @include vendor('justify-content', 'center');
+}
 ul.skills {
   @include vendor('display', 'flex');
   @include vendor('flex-wrap', 'wrap');
+  @include vendor('flex-direction', 'row');
   @include vendor('justify-content', 'center');
-  cursor: default;
 
+  cursor: default;
   list-style: none;
-  margin-left: (_size(element-margin) * -0.5);
+  margin-left: (_size(element-margin) * 0.5);
   padding-left: 0;
 
   li {
-    padding: 0 0 0 (_size(element-margin) * 0.5);
+    // padding: 0 0 0 (_size(element-margin) * 0.5);
     vertical-align: middle;
   }
 
@@ -1196,8 +1201,10 @@ button,
   &.disabled,
   &:disabled {
     @include vendor('pointer-events', 'none');
+    @include vendor('align-self', 'flex-start');
     opacity: 0.25;
     text-transform: none;
+    width: 20rem;
   }
 
   @include breakpoint('<=small') {
@@ -1286,7 +1293,6 @@ button,
 .spotlight {
   @include vendor('align-items', 'center');
   @include vendor('display', 'flex');
-  height: 27rem;
 
   .image {
     @include vendor('order', '1');
@@ -1303,7 +1309,7 @@ button,
       text-align: center;
     }
 
-    .pic3 {
+    .project-images {
       border-radius: 0;
       width: 30rem;
       height: 20rem;
@@ -1318,6 +1324,16 @@ button,
     max-width: 48em;
     width: 60%;
     color: black;
+    h3,
+    h4 {
+      color: black;
+      padding: 0;
+      margin: 0;
+    }
+    p {
+      font-family: _font(family-fixed);
+      font-style: italic;
+    }
   }
 
   &:nth-child(2n) {
@@ -1663,7 +1679,6 @@ button,
     padding: 0;
 
     > li {
-      border-top: solid 1px _palette(accent1, border);
       margin: 0.5em 0 0 0;
       padding: 0.5em 0 0 0;
 
@@ -1987,13 +2002,31 @@ body.is-preload,
 #cta {
   .inner {
     @include vendor('display', 'flex');
+    @include vendor('justify-content', 'center');
     max-width: 45em;
 
     header {
       @include vendor('order', '1');
-      padding-right: 3em;
-      width: 70%;
+      @include vendor('display', 'flex');
+      @include vendor('flex-direction', 'column');
+      text-align: center;
 
+      width: 100%;
+      h2 {
+        margin: 0;
+      }
+      div {
+        @include vendor('display', 'flex');
+        @include vendor('justify-content', 'center');
+
+        p {
+          padding: 1rem;
+        }
+        a {
+          padding: 1rem;
+          font-size: 2rem;
+        }
+      }
       p {
         color: inherit;
       }
@@ -2097,7 +2130,7 @@ body.is-mobile {
 /* Footer */
 
 #footer {
-  @include padding(6em, 0);
+  @include padding(2em, 0);
   background-color: darken(_palette(bg), 8);
   text-align: center;
 
@@ -2207,6 +2240,24 @@ body.is-mobile {
 
     #footer {
       background-color: darken(_palette(bg), 8);
+    }
+  }
+}
+/* Projects */
+
+#project-header {
+  margin: 0;
+  padding: 0.5rem;
+  .inner {
+    .major {
+      @include vendor('display', 'flex');
+      @include vendor('justify-content', 'center');
+      p {
+        font-size: 2rem;
+        font-family: _font(family);
+        padding: 1rem;
+        margin: 0;
+      }
     }
   }
 }

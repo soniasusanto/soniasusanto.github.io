@@ -10,12 +10,13 @@ const About = () => (
         <p>
           I am a full stack software engineer based in New York City. I enjoy
           engaging in creative problem solving to build easy to use and
-          impactful solutions.
+          impactful solutions. You'll often find me programming to Lo-Fi.
           <br />
           <br />
           Outside of the coding world, I am a tea-lover and a huge foodie. I
-          enjoy doing Pilates, playing video games (currently, it's Animal
-          Crossing), and watching cute dog videos on Youtube.
+          enjoy doing Pilates, cycling on Peloton (my favorite instructors are
+          Alex and Robin), playing video games, and watching cute dog videos on
+          Youtube.
         </p>
       </header>
       <ul className="icons">
@@ -32,11 +33,9 @@ const About = () => (
       </ul>
       <ul className="actions special">
         <li>
-          <Scroll type="id" element="two">
-            <a href="#" className="button primary">
-              Projects
-            </a>
-          </Scroll>
+          <a href="/Projects" className="button primary">
+            Projects
+          </a>
         </li>
       </ul>
     </div>

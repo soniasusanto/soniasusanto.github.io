@@ -44,11 +44,11 @@ class Layout extends Component {
         render={data => (
           <>
             <Helmet
-            // title={data.site.siteMetadata.title}
-            // meta={[
-            //   { name: 'description', content: 'Spectral' },
-            //   { name: 'keywords', content: 'site, web' },
-            // ]}
+              title={data.site.siteMetadata.title}
+              meta={[
+                { name: 'description', content: 'Spectral' },
+                { name: 'keywords', content: 'site, web' },
+              ]}
             >
               <html lang="en" />
             </Helmet>
@@ -60,7 +60,7 @@ class Layout extends Component {
               }
             >
               <div id="page-wrapper">
-                {/* <SideBar fullMenu={fullMenu} /> */}
+                <SideBar fullMenu={fullMenu} />
                 {children}
                 <Footer />
               </div>

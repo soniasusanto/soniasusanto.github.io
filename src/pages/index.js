@@ -5,7 +5,7 @@ import Scroll from '../components/Scroll';
 import config from '../../config';
 import About from '../components/About';
 import Landing from '../components/Landing';
-import Projects from '../components/Projects';
+
 import Skills from '../components/Skills';
 
 const IndexPage = () => (
@@ -13,29 +13,29 @@ const IndexPage = () => (
     <Landing />
     <About />
     <Skills />
-    <Projects />
 
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
-          </p>
+          <h2>Want to collaborate?</h2>
+          <h2>New opportunities?</h2>
+          <div className="contact-container">
+            <p>Reach me by</p>
+            <a
+              href="https://www.linkedin.com/in/soniasusanto/"
+              className="icon brands fa-linkedin"
+            >
+              <span className="label">LinkedIn</span>
+            </a>
+            <p>or</p>
+            <a
+              href="mailto:soniasusanto@gmail.com"
+              className="icon solid fa-envelope"
+            >
+              <span className="label">Email</span>
+            </a>
+          </div>
         </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
-          </li>
-        </ul>
       </div>
     </section>
   </Layout>
