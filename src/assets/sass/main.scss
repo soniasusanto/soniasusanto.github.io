@@ -1304,15 +1304,23 @@ button,
     .pic2 {
       border-radius: 0;
       width: 19rem;
-      height: 25rem;
+      height: 30rem;
       padding: 1rem;
       text-align: center;
     }
 
     .project-images {
       border-radius: 0;
+      width: 32rem;
+      height: 23rem;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .ihash {
+      border-radius: 0;
       width: 30rem;
-      height: 20rem;
+      height: 30rem;
       padding: 1rem;
       text-align: center;
     }
@@ -1324,7 +1332,12 @@ button,
     max-width: 48em;
     width: 60%;
     color: black;
-    h3,
+    h3 {
+      color: black;
+      padding: 0;
+      margin: 0;
+      font-size: 2rem;
+    }
     h4 {
       color: black;
       padding: 0;
@@ -1333,6 +1346,9 @@ button,
     p {
       font-family: _font(family-fixed);
       font-style: italic;
+    }
+    .footnote {
+      font-size: 0.7rem;
     }
   }
 

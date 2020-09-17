@@ -1,8 +1,8 @@
 import React from 'react';
 import sunsetRailway from '../assets/images/sunsetrailway.png';
-import pic2 from '../assets/images/pic02.gif';
+import iHash from '../assets/images/ihash.png';
+import shelterInPets from '../assets/images/shelter-in-pets.gif';
 import pic3 from '../assets/images/pic03.png';
-import config from '../../config';
 import Layout from '../components/Layout';
 
 const Projects = () => (
@@ -25,9 +25,10 @@ const Projects = () => (
           <h4>A restaurant website front-end UI mockup</h4>
           <br />
           <p>
-            This static restaurant website was developed with React and styled
-            with CSS Bootstrap.
+            This static restaurant website was built for a cafe in Singapore.
           </p>
+          <p>Built with JavaScript, React, CSS and Bootstrap.</p>
+          <p className="footnote">WIP: Responsive design</p>
           <ul className="icons">
             <li>
               <a
@@ -42,7 +43,7 @@ const Projects = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" className="pic2" />
+          <img src={shelterInPets} alt="" className="pic2" />
         </div>
         <div className="content">
           <h3>Shelter-in-Pets</h3>
@@ -56,6 +57,10 @@ const Projects = () => (
             based on desired traits, and even recommends adoptable dogs based on
             the user’s in-app activity.
           </p>
+          <p>
+            Built with React Native, Redux, Node.js, Express.js, PostgreSQL,
+            Clarifai API and Petfinder API.
+          </p>
           <ul className="icons">
             <li>
               <a
@@ -65,12 +70,20 @@ const Projects = () => (
                 <span className="label">Github</span>
               </a>
             </li>
+            <li>
+              <a
+                href="https://expo.io/@shelterinpets/ShelterInPets?release-channel=prod"
+                className="icon solid fa-mobile-alt"
+              >
+                <span className="label">Mobile App</span>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" className="pic2" />
+          <img src={iHash} alt="" className="ihash" />
         </div>
         <div className="content">
           <h3>iHash</h3>
@@ -79,13 +92,13 @@ const Projects = () => (
           <p>
             Fascinated by image recognition technologies, I wanted to build an
             application that recognized uploaded images and generate relevant
-            hashtags. The app was built using Flutter/Dart and Google Teachable
-            Machine during a 4 day hackathon. While it was challenging to learn
-            a new language and Tensorflow Lite in such a short period of time, I
-            was pleased that I was able to incorporate a pretrained machine
-            learning model and user login authentication flow in my mobile
-            application.
+            hashtags. The app was built during a 4 day hackathon. While it was
+            challenging to learn a new language and Tensorflow Lite in such a
+            short period of time, I was pleased that I was able to incorporate a
+            pretrained machine learning model and user login authentication flow
+            in my mobile application.
           </p>
+          <p>Built with Flutter, Dart, Firebase and TensorFlow Lite. </p>
           <ul className="icons">
             <li>
               <a
@@ -104,13 +117,16 @@ const Projects = () => (
         </div>
         <div className="content">
           <h3>FameX</h3>
-          <h4>A RESTful e-commerce website</h4>
+          <h4>An e-commerce website</h4>
           <br />
           <p>
             A travel e-commerce website for purchasing experiences with the
-            famous. Built using the NERDS stack, the website's frontend UI is
-            developed with React, Redux for state management and styled with
-            Material UI.
+            famous. It features a RESTful and persistent shopping cart
+            functionality and is styled with Material UI.
+          </p>
+          <p>
+            Built with JavaScript, React, Redux, Node.js, Express.js,
+            PostgreSQL, Sequelize, Material UI and CSS
           </p>
           <ul className="icons">
             <li>

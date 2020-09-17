@@ -1,5 +1,4 @@
 import React from 'react';
-import Scroll from '../components/Scroll';
 import config from '../../config';
 
 const About = () => (
@@ -14,7 +13,7 @@ const About = () => (
           <br />
           <br />
           Outside of the coding world, I am a tea-lover and a huge foodie. I
-          enjoy doing Pilates, cycling on Peloton (my favorite instructors are
+          enjoy doing Pilates, cycling with Peloton (my favorite instructors are
           Alex and Robin), playing video games, and watching cute dog videos on
           Youtube.
         </p>

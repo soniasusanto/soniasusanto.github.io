@@ -1,8 +1,5 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import Scroll from '../components/Scroll';
-
-import config from '../../config';
 import About from '../components/About';
 import Landing from '../components/Landing';
 
