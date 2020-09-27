@@ -7,9 +7,13 @@
 ## Install
 
 1. Install the Gatsby CLI
-   `npm install -g gatsby-cli`
+   ```
+   npm install -g gatsby-cli
+   ```
 2. Create a new Gatsby site from your CLI:
-   `gatsby new <site-name> https://github.com/soniasusanto/ss-portfolio`
+   ```
+   gatsby new <site-name> https://github.com/soniasusanto/ss-portfolio
+   ```
 3. Start the site:
    ```
    cd <site-name>
