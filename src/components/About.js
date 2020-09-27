@@ -32,7 +32,7 @@ const About = () => (
       </ul>
       <ul className="actions special">
         <li>
-          <a href="/projects" className="button primary">
+          <a href="/Projects" className="button primary">
             Projects
           </a>
         </li>
