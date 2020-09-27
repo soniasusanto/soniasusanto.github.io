@@ -9,7 +9,7 @@ const Landing = () => (
       <p>{config.subHeading}</p>
       <ul className="actions special">
         <li>
-          <Scroll type="id" element="one">
+          <Scroll type="id" element="about">
             <a href="/#" className="button primary">
               Explore
             </a>
@@ -17,11 +17,6 @@ const Landing = () => (
         </li>
       </ul>
     </div>
-    <Scroll type="id" element="one">
-      <a href="#one" className="more">
-        Learn More
-      </a>
-    </Scroll>
   </section>
 );
 

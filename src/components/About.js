@@ -2,7 +2,7 @@ import React from 'react';
 import config from '../../config';
 
 const About = () => (
-  <section id="one" className="wrapper style1 special">
+  <section id="about" className="wrapper style1 special">
     <div className="inner">
       <header className="major">
         <h2>About Me</h2>

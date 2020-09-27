@@ -11,7 +11,7 @@ const IndexPage = () => (
     <About />
     <Skills />
 
-    <section id="cta" className="wrapper style4">
+    <section id="contact" className="wrapper style4">
       <div className="inner">
         <header>
           <h2>Want to collaborate?</h2>

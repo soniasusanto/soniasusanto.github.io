@@ -28,7 +28,7 @@ const Projects = () => (
             This static restaurant website was built for a cafe in Singapore.
           </p>
           <p>Built with JavaScript, React, CSS and Bootstrap.</p>
-          <p className="footnote">WIP: Responsive design</p>
+
           <ul className="icons">
             <li>
               <a
