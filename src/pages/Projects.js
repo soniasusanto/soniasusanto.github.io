@@ -91,7 +91,7 @@ const Projects = () => (
           <br />
           <p>
             Fascinated by image recognition technologies, I wanted to build an
-            application that recognized uploaded images and generate relevant
+            application that recognizes uploaded images and generates relevant
             hashtags. The app was built during a 4 day hackathon. While it was
             challenging to learn a new language and Tensorflow Lite in such a
             short period of time, I was pleased that I was able to incorporate a
