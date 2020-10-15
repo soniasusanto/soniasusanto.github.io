@@ -27,12 +27,12 @@ const Projects = () => (
           <p>
             This static restaurant website was built for a cafe in Singapore.
           </p>
-          <p>Built with JavaScript, React, CSS and Bootstrap.</p>
+          <p>Built with Gatsby.js, React, and SCSS.</p>
 
           <ul className="icons">
             <li>
               <a
-                href="https://sunsetrailwaycafe.herokuapp.com/"
+                href="https://sunsetrailwaycafe.netlify.app/"
                 className="icon solid fa-external-link-alt"
               >
                 <span className="label">Link</span>
