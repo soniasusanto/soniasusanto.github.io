@@ -1,5 +1,5 @@
 import React from 'react';
-import sunsetRailway from '../assets/images/sunsetrailway.png';
+import sunsetRailway from '../assets/images/sunsetrailway.gif';
 import iHash from '../assets/images/ihash.png';
 import shelterInPets from '../assets/images/shelter-in-pets.gif';
 import pic3 from '../assets/images/pic03.png';
