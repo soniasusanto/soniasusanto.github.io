@@ -2,6 +2,7 @@ import React from 'react';
 import sunsetRailway from '../assets/images/sunsetrailway.gif';
 import iHash from '../assets/images/ihash.png';
 import shelterInPets from '../assets/images/shelter-in-pets.gif';
+import stockwatch from '../assets/images/stockwatch.gif';
 import pic3 from '../assets/images/pic03.png';
 import Layout from '../components/Layout';
 
@@ -16,6 +17,37 @@ const Projects = () => (
     </section>
 
     <section id="two" className="wrapper alt style2">
+      <section className="spotlight">
+        <div className="image">
+          <img src={stockwatch} alt="" className="project-images" />
+        </div>
+        <div className="content">
+          <h3>Stockwatch</h3>
+          <h4>A website for monthly stock data</h4>
+          <br />
+          <p>
+            This website features an autocomplete search bar for easy stock
+            symbol lookups. Month-to-date stock data is shown using Recharts. It
+            is styled with SCSS and also consists of a persistent dark mode that
+            is implemented with LocalStorage.
+          </p>
+          <p>
+            Built with React, Redux, SCSS, Recharts, Node.js, Express.js and IEX
+            API.
+          </p>
+
+          <ul className="icons">
+            <li>
+              <a
+                href="https://st0ckwatch.netlify.app/"
+                className="icon solid fa-external-link-alt"
+              >
+                <span className="label">Link</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
       <section className="spotlight">
         <div className="image">
           <img src={sunsetRailway} alt="" className="project-images" />
