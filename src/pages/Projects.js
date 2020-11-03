@@ -23,7 +23,7 @@ const Projects = () => (
         </div>
         <div className="content">
           <h3>Stockwatch</h3>
-          <h4>A website for monthly stock data</h4>
+          <h4>A website that displays month-to-date stock data</h4>
           <br />
           <p>
             This website features an autocomplete search bar for easy stock
