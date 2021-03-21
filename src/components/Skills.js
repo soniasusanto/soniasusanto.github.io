@@ -20,10 +20,10 @@ const Skills = () => (
       <p>Currently exploring and learning:</p>
       <ul className="skills">
         <li>
-          <span className="button primary disabled">Python</span>
+          <span className="button primary disabled">C++</span>
         </li>
         <li>
-          <span className="button primary disabled">Go</span>
+          <span className="button primary disabled">TypeScript</span>
         </li>
         <li>
           <span className="button primary disabled">GraphQL</span>

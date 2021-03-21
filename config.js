@@ -46,7 +46,7 @@ module.exports = {
     { name: 'HTML' },
     { name: 'CSS' },
     { name: 'Github / Git' },
-    { name: 'Test Driven Development' },
+    { name: 'TDD' },
     { name: 'Jasmine' },
     { name: 'Mocha' },
     { name: 'RESTful APIs' },
