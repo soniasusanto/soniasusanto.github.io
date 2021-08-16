@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-5845aaa0c989a385b0a1.js"
+    "url": "webpack-runtime-b625fde559baebd7a8fb.js"
   },
   {
     "url": "framework-63ec46a3540d83159f28.js"
   },
   {
-    "url": "app-c9ca4f6c33636d77bb39.js"
+    "url": "app-81d0f8c20314f371f516.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "2f444d35e6dc4877e273d3c9164c8312"
+    "revision": "7492e31037d103d86c3fd37640af1d4c"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-0097d26fbd474b34ff9b.js"
@@ -48,7 +48,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "a709376f872bb8cfd166a83240626120"
+    "revision": "65ec4e5d32a24cc4b56d9d23400b7c45"
   },
   {
     "url": "polyfill-939b6eeea0ccf3d28b32.js"
@@ -147,7 +147,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/soniasusanto.github.io/app-c9ca4f6c33636d77bb39.js`))) {
+  if (!resources || !(await caches.match(`/soniasusanto.github.io/app-81d0f8c20314f371f516.js`))) {
     return await fetch(event.request)
   }
 
