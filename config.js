@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/favicon-32x32.png',
-  pathPrefix: `/ss-portfolio/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: ``, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Sonia Susanto',
   subHeading: 'Full Stack Software Engineer | Web Developer',
   // social
